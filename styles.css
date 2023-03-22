@@ -22,7 +22,7 @@ body {
 
   grid-template-columns: 20% 70%;
   grid-template-areas:
-    'sidebar map-overlay';
+    'map-overlay sidebar';
 }
 
 .sidebar {
