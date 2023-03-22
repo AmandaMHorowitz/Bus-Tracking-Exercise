@@ -6,12 +6,12 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 70%;
+  width: 80%;
 }
 
 .map-overlay {
   position: absolute;
-  left: 0;
+  left: 20%;
   padding: 10px;
 }
 .wrapper {
@@ -22,7 +22,7 @@ body {
 
   grid-template-columns: 20% 70%;
   grid-template-areas:
-    'sidebar eyes';
+    'sidebar map-overlay';
 }
 
 .sidebar {
